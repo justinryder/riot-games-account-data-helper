@@ -1,0 +1,51 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.file-contents {
+  margin-top: 5px;
+}
+
+.file-contents__heading {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.disclaimer__header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.disclaimer__text {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 5px 0 0;
+}
+
+.disclaimer__text--large {
+  font-size: 1.5em;
+}
+
+.disclaimer__text--small {
+  font-size: 0.9em;
+}

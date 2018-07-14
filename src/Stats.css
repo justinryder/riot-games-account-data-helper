@@ -1,0 +1,41 @@
+.stats {
+  margin-top: 10px;
+}
+
+.stats__header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.stat {
+  display: flex;
+  margin-top: 5px;
+}
+
+.stat__label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.stat__value {
+
+}
+
+
+.store-transaction-breakdown {
+  margin-top: 5px;
+}
+
+.store-transaction-breakdown__row {
+  margin-top: 5px;
+}
+
+.store-transaction-breakdown__header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.store-transaction-breakdown__type {
+  font-weight: bold;
+  font-size: 1.25em;
+}

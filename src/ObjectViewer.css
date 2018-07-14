@@ -1,0 +1,23 @@
+.object-viewer {
+  margin-top: 5px;
+}
+
+.object-viewer__header {
+  display: flex;
+  align-items: center;
+}
+
+.object-viewer__name {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-right: 5px;
+}
+
+.object-viewer__object {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.is-hidden {
+  display: none;
+}
