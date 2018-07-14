@@ -69,6 +69,17 @@ class App extends Component {
           />
         </div>
         <div className="flex-spacer"></div>
+        <div className="how-to">
+          <div className="how-to__header">How do I get and view my account data?</div>
+          <ol>
+            <li>Open a support ticket with Riot Games at <a href="https://support.riotgames.com/hc/en-us/requests/new?ticket_form_id=38164">https://support.riotgames.com/hc/en-us/requests/new?ticket_form_id=38164</a></li>
+            <li>For "Choose a Request Type" select "I need help with account management, data requests, or deletion"</li>
+            <li>For "I need help with" select "I would like to request my account data"</li>
+            <li>Submit the ticket and wait for Riot Games to send you your account data (may take up to 30 days)</li>
+            <li>Once you get your account data, return to <a href="http://riot-games-account-data-helper.com/">riot-games-account-data-helper.com</a></li>
+            <li>Un-zip your account data and drag the json files inside of it to the box at the top of this page</li>
+          </ol>
+        </div>
         <div className="disclaimer">
           <div className="disclaimer__header">Disclaimer</div>
           <div>

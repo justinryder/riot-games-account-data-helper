@@ -1,5 +1,5 @@
 .App {
-  width: 100vw;
+  width: calc(100vw - 20px);
   min-height: 100vh;
   padding: 10px;
   display: flex;
@@ -23,12 +23,22 @@
   flex-grow: 1;
 }
 
+.how-to {
+  margin-top: 60px;
+}
+
+.how-to__header {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
 .disclaimer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 .disclaimer__header {
